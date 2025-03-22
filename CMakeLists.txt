@@ -3,4 +3,5 @@ project(skiplist_single_)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(skiplist_single_ main.cpp)
+add_executable(skiplist_single_ main.cpp
+        skiplist.h)
